@@ -1,46 +1,26 @@
-
-# Sales Prediction Using Python
+# Task 2 - Sales Prediction Using Python
 
 ## Objective
-The objective of this project is to predict product sales based on advertising expenditure.
+Predict product sales using advertising expenditure across TV, Radio, and Newspaper channels.
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- Machine Learning
+## Dataset required
+Save a CSV named `Advertising.csv` in this folder. It must contain these columns:
+- `TV`
+- `Radio`
+- `Newspaper`
+- `Sales`
+
+Use the dataset source provided by your internship instructions if its link is available. Check that the downloaded CSV has the expected columns before running.
+
+## Method
+- Load and validate data
+- Remove rows with missing required values
+- Train/test split (80% / 20%)
 - Linear Regression
+- MAE, RMSE, and R-squared evaluation
 
-## Features
-- Data Loading
-- Data Preprocessing
-- Model Training
-- Sales Prediction
-- Model Evaluation
-
-## Algorithm
-Linear Regression
-
-## Dataset
-Advertising.csv
-
-The dataset contains:
-- TV
-- Radio
-- Newspaper
-- Sales
-
-## Evaluation Metrics
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R-squared Score
-
-## How to Run
-
-Install dependencies:
-
+## Run
+```bash
 pip install -r requirements.txt
-
-Run the project:
-
 python main.py
+```
